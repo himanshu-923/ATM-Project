@@ -1,5 +1,5 @@
-from utils import balance
+import utils
 
 
 def show_balance():
-    print("\nCurrent Balance is:", balance)
+    print("\nCurrent Balance is:", utils.balance)
